@@ -1,0 +1,48 @@
+# SPDX-FileCopyrightText: no
+# SPDX-License-Identifier: CC0-1.0
+---
+componentName:  RuneOS
+
+welcomeStyleCalamares:   false
+welcomeExpandingLogo:   true
+windowExpanding:    fullscreen
+windowSize: 800px,520px
+
+windowPlacement: center
+
+sidebar: widget
+navigation: widget
+
+strings:
+    productName:         "RuneOS"
+    shortProductName:    runeos
+    version:             Rolling
+    shortVersion:        Rolling
+    versionedName:       RuneOS Rolling
+    shortVersionedName:  RuneOS
+    bootloaderEntryName: RuneOS
+    productUrl:          https://github.com/Rune-OS
+    knownIssuesUrl:      https://github.com/Rune-OS/iso/issues
+    releaseNotesUrl:     https://github.com/Rune-OS/iso/releases/
+
+images:
+    # productBanner:       "banner.png"
+    productIcon:         "squid.png"
+    productLogo:         "squid.png"
+    # productWallpaper:    "wallpaper.png"
+    productWelcome:      "languages.png"
+
+style:
+   SidebarBackground:        "#292F34"
+   SidebarText:              "#FFFFFF"
+   SidebarTextCurrent:       "#292F34"
+   SidebarBackgroundCurrent: "#D35400"
+
+slideshow:               "show.qml"
+
+slideshowAPI: 2
+
+uploadServer :
+    type :    "fiche"
+    url :     "http://termbin.com:9999"
+    sizeLimit : -1
